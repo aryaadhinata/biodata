@@ -1,0 +1,44 @@
+html{
+    width: 100% auto;
+    height: 100% auto;
+    margin: -8px;
+    padding: 0;
+    font-family: consolas, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1e3cf;
+    height: 50px;
+    width: 100%;
+}
+
+.greating{
+    margin:2.5%;
+    font-size: large;
+    color: #5a8da3;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    margin: 2.5%;
+}
+
+.search {
+    text-align: center;
+    padding: 2.5%;
+    border-radius: 25px;
+    padding-left: 35px; 
+}
+
+.searchImg {
+    height: auto;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
